@@ -12,3 +12,4 @@ chmod --reference=olleh hello
 chmod a+X *
 mkdir -m 751 my_dir
 chgrp holberton hello
+chown vincent:staff ./*
