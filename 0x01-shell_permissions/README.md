@@ -14,3 +14,4 @@ mkdir -m 751 my_dir
 chgrp holberton hello
 chown vincent:staff ./*
 chown -h vincent:staff _hello
+chown --from=guillaume  betty hello
