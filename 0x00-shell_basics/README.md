@@ -15,3 +15,5 @@ ln -s /bin/ls __ls__
 cp -u *.html ..
 mv [[:upper:]]* /tmp/u
 rm *~
+mkdir -p welcome/to/school
+
