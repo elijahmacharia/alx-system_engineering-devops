@@ -14,4 +14,5 @@ ls -t1 | head -n 10
 sort | uniq -u
 grep -i "root" /etc/passwd
 grep -c -i "bin" /etc/passwd
-grep -i "root" -A 3 /etc/passwd 
+grep -i "root" -A 3 /etc/passwd
+grep -i -v "bin" /etc/passwd 
