@@ -13,4 +13,5 @@ find . -type d -not -name '.' | wc -l
 ls -t1 | head -n 10
 sort | uniq -u
 grep -i "root" /etc/passwd
-grep -c -i "bin" /etc/passwd 
+grep -c -i "bin" /etc/passwd
+grep -i "root" -A 3 /etc/passwd 
