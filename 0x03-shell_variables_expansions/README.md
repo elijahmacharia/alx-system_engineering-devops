@@ -5,3 +5,4 @@ echo $PATH | tr ':' '\n' | wc -l
 printenv
 set
 BEST=School
+echo $((128 + $TRUEKNOWLEDGE))
