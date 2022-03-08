@@ -6,3 +6,4 @@ printenv
 set
 BEST=School
 echo $((128 + $TRUEKNOWLEDGE))
+echo $((POWER/DIVIDE))
