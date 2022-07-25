@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-#Creating a script that uses a while loop
-x=1
-while [ $x -le 10 ]
-do
-    echo "Best School"
-    x=$(( x + 1 ))
-done
+# Displays Best School 10 times with a while loop.
+
+i=10
+
+while [ "${i}" -gt 0 ]; do echo "Best School"; ((i--)); done

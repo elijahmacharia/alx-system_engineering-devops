@@ -1,16 +1,18 @@
 #!/usr/bin/env bash
-#Creating a script that uses if, else if and else statements
-x=1
-while [ $x -le 10 ]
+# Display Best School and in certain iterations displays good luck or bad luck
+
+i=0
+
+while [ "${i}" -lt 10 ]
 do
-	if [ $x -eq 4 ]
+	if [ "${i}" -eq 3 ]
 	then
-	    echo "bad luck"
-	elif [ $x -eq 8 ]
+		echo "bad luck"
+	elif [ "${i}" -eq 7 ]
 	then
-	    echo "good luck"
-       	else
-	    echo "Best School"
+		echo "good luck"
+	else
+		echo "Best School"
 	fi
-	((x++))
+	((i++))
 done
