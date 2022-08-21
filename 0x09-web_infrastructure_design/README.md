@@ -1,4 +1,4 @@
-Web Infrustructure 
+## Web Infrustructure 
 
 0-simple_web_stack - A simple web infrastructure design with one server, One domain and one application and web server
 
